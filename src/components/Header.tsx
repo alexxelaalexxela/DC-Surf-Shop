@@ -26,12 +26,12 @@ const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group" title="Go to homepage">
             <img 
               src={banyuLogo} 
-              alt="Half King Surf" 
+              alt="DC surf shop" 
               className="h-10 w-10 transition-transform group-hover:scale-105"
             />
             <div>
-              <h1 className="font-serif text-xl font-bold text-foreground">HALF KING</h1>
-              <p className="text-xs text-muted-foreground -mt-1">SURFBOARDS & FINS</p>
+              <h1 className="font-serif text-xl font-bold text-foreground">DC SURF SHOP</h1>
+              <p className="text-xs text-muted-foreground -mt-1">SURF SHOP</p>
             </div>
           </Link>
 

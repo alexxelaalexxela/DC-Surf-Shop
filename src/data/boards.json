@@ -1,9 +1,9 @@
 [
   {
-    "id": "Bali-fish",
-    "name": "Bali Fish",
+    "id": "lombok-fish",
+    "name": "Lombok Fish",
     "type": "Fish",
-    "description": "Perfect for the playful waves of Canggu. Twin fin setup for speed and maneuverability.",
+    "description": "Perfect for the playful waves around Kuta, Lombok. Twin fin setup for speed and maneuverability.",
     "dimensions": {
       "length": "5'11-6'5\"",
       
@@ -21,10 +21,10 @@
     ]
   },
   {
-    "id": "Uluwatu-gun",
-    "name": "Uluwatu Gun",
+    "id": "Gerupuk-gun",
+    "name": "Gerupuk Gun",
     "type": "Step-Up",
-    "description": "For the bigger days at Uluwatu. Built for power and control.",
+    "description": "For the bigger days around Gerupuk. Built for power and control.",
     "dimensions": {
       "length": "7'0-8'6\"",
       "width": "19.5\"",
@@ -43,8 +43,8 @@
     ]
   },
   {
-    "id": "indo-longboard",
-    "name": "Indo Logger",
+    "id": "lombok-longboard",
+    "name": "Lombok Logger",
     "type": "Longboard",
     "description": "Classic single fin longboard for the mellower waves and endless summer sessions.",
     "dimensions": {

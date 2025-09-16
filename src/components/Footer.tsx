@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, MapPin, Clock, Phone, Mail } from 'lucide-react';
+import { MapPin, Clock, Phone, Mail } from 'lucide-react';
 import banyuLogo from '@/assets/banyu-logo.png';
 
 const Footer = () => {
@@ -13,24 +13,16 @@ const Footer = () => {
           {/* Brand & Logo */}
           <div className="md:col-span-1">
             <div className="flex items-center space-x-3 mb-4">
-              <img src={banyuLogo} alt="Half King Surf" className="h-10 w-10" />
+              <img src={banyuLogo} alt="DC surf shop" className="h-10 w-10" />
               <div>
-                <h3 className="font-serif text-xl font-bold">HALF KING</h3>
-                <p className="text-sm opacity-80">SURFBOARDS & FINS</p>
+                <h3 className="font-serif text-xl font-bold">DC SURF SHOP</h3>
+                <p className="text-sm opacity-80">SURF SHOP</p>
               </div>
             </div>
             <p className="text-sm opacity-80 mb-4">
-              Custom surfboards and fins handcrafted in Canggu, Bali.
+              Surfboards, rentals, and lessons in Kuta, Lombok.
             </p>
-            <a
-              href="https://instagram.com/halfkingsurf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center space-x-2 text-sm hover:text-ocean-light transition-colors"
-            >
-              <Instagram className="h-4 w-4" />
-              <span>@halfkingsurf</span>
-            </a>
+            
           </div>
 
           {/* Quick Links */}
@@ -49,7 +41,7 @@ const Footer = () => {
               </li>
               <li>
                 <a 
-                  href="https://wa.me/6281237531349?text=Hello%20Half%20King,%20I%20need%20ding%20repair%20for%20my%20board"
+                  href="https://wa.me/6287862300023?text=Hello%20DC%20surf%20shop%2C%20I%20need%20ding%20repair%20for%20my%20board."
                   className="text-sm opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
                   Ding Repairs
@@ -65,30 +57,25 @@ const Footer = () => {
               <li className="flex items-start space-x-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="opacity-80">
-                  <a href="https://www.google.com/maps/search/?api=1&query=Half%20King%2C%20Perumahan%20Canggu%20Asri%20B1%20No.44%2C%20Tibubeneng%2C%20Kuta%20Utara%2C%20Kabupaten%20Badung%2C%20Bali%2080361" target="_blank" rel="noreferrer" className="hover:underline">
-                    Half King<br />
-                    Perumahan Canggu Asri B1 No.44, Tibubeneng<br />
-                    Kuta Utara, Badung, Bali 80361
+                  <a href="https://www.google.com/maps/search/?api=1&query=Jl.%20Raya%20Kuta%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573" target="_blank" rel="noreferrer" className="hover:underline">
+                    DC surf shop<br />
+                    Jl. Raya Kuta, Kuta, Kec. Pujut<br />
+                    Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573
                   </a>
                 </span>
               </li>
               <li className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 flex-shrink-0" />
                 <a 
-                  href="https://wa.me/6281237531349"
+                  href="https://wa.me/6287862300023"
                   className="opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
                 >
-                  WhatsApp: +6281237531349
+                  WhatsApp: 087862300023
                 </a>
               </li>
               <li className="flex items-center space-x-2 text-sm">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <a 
-                  href="mailto:hello@halfking.surf"
-                  className="opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors"
-                >
-                  hello@halfking.surf
-                </a>
+                <span className="opacity-80">Email: Not available</span>
               </li>
             </ul>
           </div>
@@ -111,7 +98,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-wood-medium mt-8 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm opacity-60">
-            © {currentYear} Half King. All rights reserved.
+            © {currentYear} DC surf shop. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <Link to="/privacy" className="text-sm opacity-60 hover:opacity-80 transition-colors">
