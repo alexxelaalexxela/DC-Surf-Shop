@@ -9,7 +9,7 @@ import Boards from "./pages/Boards";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Custom from "./pages/Custom";
-import Fins from "./pages/Fins";
+// import Fins from "./pages/Fins";
 import Gallery from "./pages/Gallery";
 
 const queryClient = new QueryClient();
@@ -33,7 +33,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/boards" element={<Boards />} />
           <Route path="/custom" element={<Custom />} />
-          <Route path="/fins" element={<Fins />} />
+          {/* <Route path="/fins" element={<Fins />} /> */}
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

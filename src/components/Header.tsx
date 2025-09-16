@@ -12,7 +12,6 @@ const Header = () => {
     { name: 'Home', path: '/' },
     { name: 'Boards', path: '/boards' },
     { name: 'Custom', path: '/custom' },
-    { name: 'Fins', path: '/fins' },
     { name: 'Contact', path: '/contact' }
   ];
 
@@ -55,12 +54,7 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button asChild variant="outline">
-              <Link to="/fins">Order Fins</Link>
-            </Button>
-          </div>
+          
 
           {/* Mobile Menu Button */}
           <Button
@@ -91,9 +85,7 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button asChild variant="outline" className="mt-4">
-                <Link to="/fins">Order Fins</Link>
-              </Button>
+              
             </div>
           </nav>
         )}

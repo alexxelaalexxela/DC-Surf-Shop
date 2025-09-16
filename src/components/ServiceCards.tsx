@@ -18,15 +18,7 @@ const ServiceCards = () => {
       action: () => window.location.assign('/custom'),
       gradient: ''
     },
-    {
-      icon: Waves,
-      title: 'Custom Fins',
-      description: 'Handcrafted fins tailored to your style — templates, materials, colorways, and finish.',
-      features: ['FCS II or Futures', 'Twin/Thruster/Quad/2+1', 'Fiberglass, wood, carbon', 'Foil and flex tuning'],
-      cta: 'Order Custom Fins',
-      action: () => window.location.assign('/fins'),
-      gradient: ''
-    },
+    
     {
       icon: Waves,
       title: 'Our Boards',

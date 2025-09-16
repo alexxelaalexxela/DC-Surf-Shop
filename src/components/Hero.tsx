@@ -23,14 +23,14 @@ const Hero = () => {
           className="h-24 w-24 md:h-32 md:w-32 mx-auto mb-6 drop-shadow-lg"
         />
         <a
-          href="https://www.google.com/maps/search/?api=1&query=Jl.%20Raya%20Kuta%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573"
+          href="https://www.google.com/maps/search/?api=1&query=DC%20surf%20shop%20Kuta%20Lombok"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center justify-center mb-6 hover:underline"
         >
           <MapPin className="h-5 w-5 mr-2" />
           <span className="text-sm font-medium tracking-wide uppercase">
-            Kuta, Lombok
+            DC surf shop, Kuta Lombok
           </span>
         </a>
         
@@ -39,17 +39,6 @@ const Hero = () => {
         
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button 
-            asChild 
-            size="lg" 
-            className="bg-white text-foreground hover:bg-sand-light font-semibold px-8 py-3 rounded-full surf-shadow"
-          >
-            <Link to="/fins" className="flex items-center">
-              Custom Fins
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
-          
           <Button 
             asChild 
             variant="outline" 

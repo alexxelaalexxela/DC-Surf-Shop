@@ -64,8 +64,8 @@ const Contact = () => {
               <h3 className="font-serif text-xl font-semibold mb-4">Find Us at DC surf shop</h3>
               <div className="aspect-video rounded-md overflow-hidden">
                 <iframe
-                  title="DC surf shop Location"
-                  src="https://www.google.com/maps?q=Jl.%20Raya%20Kuta%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573&z=15&output=embed"
+                  title="DC surf shop Kuta Lombok Location"
+                  src="https://www.google.com/maps?q=DC%20surf%20shop%20Kuta%20Lombok&z=15&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
               <div className="mt-4">
                 <a
-                  href="https://www.google.com/maps/search/?api=1&query=Jl.%20Raya%20Kuta%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573"
+                  href="https://www.google.com/maps/search/?api=1&query=DC%20surf%20shop%20Kuta%20Lombok"
                   target="_blank"
                   rel="noreferrer"
                   className="text-primary underline"

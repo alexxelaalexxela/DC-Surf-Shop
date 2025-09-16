@@ -34,11 +34,7 @@ const Footer = () => {
                   Custom Boards
                 </Link>
               </li>
-              <li>
-                <Link to="/fins" className="text-sm opacity-80 hover:opacity-100 hover:text-ocean-light transition-colors">
-                  Custom Fins
-                </Link>
-              </li>
+              
               <li>
                 <a 
                   href="https://wa.me/6287862300023?text=Hello%20DC%20surf%20shop%2C%20I%20need%20ding%20repair%20for%20my%20board."
@@ -57,7 +53,7 @@ const Footer = () => {
               <li className="flex items-start space-x-2 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span className="opacity-80">
-                  <a href="https://www.google.com/maps/search/?api=1&query=Jl.%20Raya%20Kuta%2C%20Kuta%2C%20Kec.%20Pujut%2C%20Kabupaten%20Lombok%20Tengah%2C%20Nusa%20Tenggara%20Bar.%2083573" target="_blank" rel="noreferrer" className="hover:underline">
+                  <a href="https://www.google.com/maps/search/?api=1&query=DC%20surf%20shop%20Kuta%20Lombok" target="_blank" rel="noreferrer" className="hover:underline">
                     DC surf shop<br />
                     Jl. Raya Kuta, Kuta, Kec. Pujut<br />
                     Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573
