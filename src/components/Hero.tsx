@@ -30,7 +30,7 @@ const Hero = () => {
         >
           <MapPin className="h-5 w-5 mr-2" />
           <span className="text-sm font-medium tracking-wide uppercase">
-            DC surf shop, Kuta Lombok
+            DC surf shop, Kuta Lombok.
           </span>
         </a>
         
