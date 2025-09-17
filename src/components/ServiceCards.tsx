@@ -30,7 +30,7 @@ const ServiceCards = () => {
     },
     {
       icon: Wrench,
-      title: 'Ding Repairs',
+      title: 'Professional Ding Repairs',
       description: 'Professional surfboard repairs using traditional techniques and modern materials to restore your board to peak condition.',
       features: ['Quick turnaround', 'Quality materials', 'Color matching', 'Structural integrity'],
       cta: 'Get Repair Quote',
