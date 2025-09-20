@@ -1,89 +1,111 @@
 [
   {
-    "id": "lombok-fish",
-    "name": "Lombok Fish",
-    "type": "Fish",
-    "description": "Perfect for the playful waves around Kuta, Lombok. Twin fin setup for speed and maneuverability.",
+    "id": "short board",
+    "name": "Short board",
+    "type": "Short board",
+    "description": "Short board from beginner to advanced surfers",
     "dimensions": {
-      "length": "5'11-6'5\"",
+      "length": "5'8-6'5\"",
       
-      "volume": "30-38L"
+      "volume": "25-38L"
     },
-    "features": ["Twin fin setup", "Swallow tail", "Medium rocker"],
+    "features": ["thruster setup", "various tail shape", "Medium rocker"],
     "waveConditions": "2-6ft, playful surf",
     "surfLevel": "Intermediate to Advanced",
-    "price": "4.000.000 rp",
-    "image": "images/fish.jpeg",
+    "price": "5.500.000 rp",
+    "image": "images/Short.jpeg",
     "gallery": [
-      "images/fish.jpeg",
-      "images/fish.jpeg",
-      "images/fish.jpeg"
+      "images/Short.jpeg",
+      "images/Short.jpeg",
+      "images/Short.jpeg"
     ]
   },
   {
-    "id": "Gerupuk-gun",
-    "name": "Gerupuk Gun",
-    "type": "Step-Up",
-    "description": "For the bigger days around Gerupuk. Built for power and control.",
+    "id": "Mid lank fun board",
+    "name": "Mid lank fun board",
+    "type": "Mid lank",
+    "description": "Mid lank fun board from beginner to advanced surfers",
     "dimensions": {
-      "length": "7'0-8'6\"",
-      "width": "19.5\"",
-      "thickness": "2.5\"",
+      "length": "6'0-8'6\"",
+      "width": "",
+      "thickness": "",
       "volume": "32-42L"
     },
-    "features": ["Single fin", "Pin tail", "Pulled-in nose"],
-    "waveConditions": "6-12ft, powerful surf",
-    "surfLevel": "Advanced",
-    "price": "5.000.000 rp",
-    "image": "images/gun.jpeg",
+    "features": ["thruster fin", "Pin tail", "Pulled-in nose"],
+    "waveConditions": "Small to medium waves",
+    "surfLevel": "beginner to intermediate",
+    "price": "6.000.000 rp",
+    "image": "images/Mid.jpeg",
     "gallery": [
-      "images/gun.jpeg",
-      "images/gun.jpeg",
+      "images/Mid.jpeg",
+      "images/Mid2.jpeg",
       "images/gun.jpeg"
     ]
   },
   {
-    "id": "lombok-longboard",
-    "name": "Lombok Logger",
+    "id": "Epoxy long board ",
+    "name": "Epoxy long board ",
     "type": "Longboard",
     "description": "Classic single fin longboard for the mellower waves and endless summer sessions.",
     "dimensions": {
       "length": "9'2-10'6\"",
-      "width": "22.75\"",
-      "thickness": "3\"",
+      "width": "",
+      "thickness": "",
       "volume": "68-80L"
     },
     "features": ["Single fin", "Square tail", "Traditional template"],
     "waveConditions": "1-4ft, mellow surf",
     "surfLevel": "Beginner to Intermediate",
-    "price": "4.000.000 rp",
-    "image": "images/indo.jpeg",
+    "price": "7.500.000 rp",
+    "image": "images/long.jpeg",
     "gallery": [
-      "images/indo.jpeg",
-      "images/indo.jpeg",
-      "images/indo.jpeg"
+      "images/long.jpeg",
+      "images/long.jpeg",
+      "images/long.jpeg"
     ]
   },
   {
-    "id": "twin-fin-cruiser",
-    "name": "Twin Fin Cruiser",
+    "id": "Twin fin & classic board",
+    "name": "Twin fin & classic board",
     "type": "Twin Fin",
     "description": "Versatile everyday board that handles most conditions around Lombok with style.",
     "dimensions": {
-      "length": "6'6-8'0\"",
-      "width": "21\"",
-      "thickness": "2.625\"",
-      "volume": "42-60 L"
+      "length": "5'6-7'0\"",
+      "width": "",
+      "thickness": "",
+      "volume": "32-60 L"
     },
     "features": ["Twin fin", "Fish tail", "Balanced rocker"],
     "waveConditions": "2-8ft, all conditions",
     "surfLevel": "Intermediate",
-    "price": "3.500.000 rp",
-    "image": "images/twin.jpeg",
+    "price": "5.500.000 rp",
+    "image": "images/fishB.jpeg",
     "gallery": [
-      "images/twin.jpeg",
-      "images/twin.jpeg",
-      "images/twin.jpeg"
+      "images/fishB.jpeg",
+      "images/fishB.jpeg",
+      "images/fishB.jpeg"
+    ]
+  },
+  {
+    "id": "Custom hand made fin",
+    "name": "Custom hand made fin",
+    "type": "Fins",
+    "description": "Custom hand made fin from beginner to advanced surfers",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "thickness": "",
+      "volume": ""
+    },
+    "features": ["custom fin"],
+    "waveConditions": "",
+    "surfLevel": "",
+    "price": "1.000.000 rp",
+    "image": "images/fins.jpeg",
+    "gallery": [
+      "images/fins.jpeg",
+      "images/fins.jpeg",
+      "images/fins.jpeg"
     ]
   }
 ]
